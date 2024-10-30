@@ -1,9 +1,4 @@
-import React, {
-  useState,
-  useEffect,
-  ChangeEvent,
-  MouseEventHandler,
-} from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 
 // Type definition for a breed object
 interface Breed {
@@ -13,11 +8,6 @@ interface Breed {
   life_span: string;
   child_friendly: number;
   vocalisation: number;
-}
-
-// Type definition for the Cat API image response
-interface CatImageResponse {
-  url: string;
 }
 
 function CatBreedExplorer() {

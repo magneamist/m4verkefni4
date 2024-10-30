@@ -1,5 +1,5 @@
-import FunFact from "./FunFact.tsx";
-import CatBreedExplorer from "./CatCard.tsx";
+import FunFact from "./funFact.tsx";
+import CatBreedExplorer from "./catCard.tsx";
 
 const App = () => {
   return (
